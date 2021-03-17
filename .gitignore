@@ -1,1 +1,6 @@
-*.exe
+# ignore local examples
+
+/examples/*/*.local.*
+
+# ignore binaries in root dir
+/*.exe
